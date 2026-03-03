@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publish Analysis | Diplomacy Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="index.html" class="brand">Diplomacy Lab</a>
+        <ul class="nav-links">
+          <li><a href="index.html#briefs">Explore</a></li>
+          <li><a href="write.html">Publish</a></li>
+          <li><a href="index.html#regions">Regions</a></li>
+          <li><a href="index.html#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-wrap">
+      <h1>Write a Policy Brief</h1>
+      <p class="subtitle">A calm writing studio for concise, evidence-based analysis.</p>
+      <p class="autosave">Draft autosaved locally</p>
+
+      <form class="form">
+        <label class="field">
+          <span>Title</span>
+          <input type="text" placeholder="e.g., Energy Cooperation and Winter Grid Stability in Central Asia" />
+        </label>
+
+        <div class="dashboard-grid">
+          <label class="field">
+            <span>Region</span>
+            <select>
+              <option>Central Asia</option>
+              <option>East Asia</option>
+              <option>Africa</option>
+              <option>Europe</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Issue Category</span>
+            <select>
+              <option>Security</option>
+              <option>Climate</option>
+              <option>Trade</option>
+              <option>Digital Governance</option>
+            </select>
+          </label>
+        </div>
+
+        <label class="field">
+          <span>Main Text</span>
+          <textarea id="analysis" placeholder="Problem:\n\nContext:\n\nAnalysis:\n\nRecommendation:"></textarea>
+        </label>
+
+        <label class="field">
+          <span>Sources</span>
+          <textarea placeholder="List key sources and references."></textarea>
+        </label>
+      </form>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
