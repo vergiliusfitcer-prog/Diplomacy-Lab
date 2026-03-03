@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diplomacy Lab | Data-Driven Dialogue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="index.html" class="brand">Diplomacy Lab</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links">
+          <li><a href="#briefs">Explore</a></li>
+          <li><a href="write.html">Publish</a></li>
+          <li><a href="#regions">Regions</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero-inner">
+          <p class="kicker">Global policy publication platform</p>
+          <h1>Data-Driven Dialogue for a Changing World</h1>
+          <p class="subtitle">
+            Diplomacy Lab is a global platform where emerging analysts publish
+            concise, evidence-based policy briefs on today’s geopolitical
+            challenges.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#briefs">Explore Briefs</a>
+            <a class="btn btn-secondary" href="write.html">Publish Your Analysis</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container narrow">
+          <h2>About Diplomacy Lab</h2>
+          <p>
+            Diplomacy Lab connects students, researchers, and young
+            policymakers from strategically important regions. The platform
+            promotes structured thinking, transparency, and constructive
+            international dialogue.
+          </p>
+        </div>
+      </section>
+
+      <section id="briefs" class="section alt">
+        <div class="container">
+          <h2>Featured Briefs</h2>
+          <div class="card-grid">
+            <article class="brief-card">
+              <p class="tag">Central Asia</p>
+              <h3>Water Security and Cross-Border Coordination in the Syr Darya Basin</h3>
+              <p>
+                A practical framework for data-sharing protocols that reduce seasonal
+                irrigation disputes while preserving local livelihoods.
+              </p>
+              <p class="author">By Aigerim Sadykova</p>
+            </article>
+            <article class="brief-card">
+              <p class="tag">East Asia</p>
+              <h3>Building Trust in AI Export Governance</h3>
+              <p>
+                How phased transparency standards can align innovation policy with
+                regional security expectations.
+              </p>
+              <p class="author">By Wei Lin</p>
+            </article>
+            <article class="brief-card">
+              <p class="tag">Africa</p>
+              <h3>Corridor Diplomacy and Climate-Resilient Trade Logistics</h3>
+              <p>
+                Policy options for balancing customs efficiency with adaptation funding
+                across inland transport corridors.
+              </p>
+              <p class="author">By Nia Okonkwo</p>
+            </article>
+            <article class="brief-card">
+              <p class="tag">Europe</p>
+              <h3>Reframing Urban Energy Cooperation Through Municipal Pacts</h3>
+              <p>
+                A concise model for city-level agreements that accelerate decarbonization
+                and grid interoperability.
+              </p>
+              <p class="author">By Elena Markovic</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="regions" class="section">
+        <div class="container">
+          <h2>Regions</h2>
+          <div class="map-wrap" aria-label="Interactive regional map">
+            <svg viewBox="0 0 900 420" role="img" aria-labelledby="mapTitle">
+              <title id="mapTitle">Stylized world regions map</title>
+              <rect x="0" y="0" width="900" height="420" rx="16" class="map-bg" />
+              <path class="region" data-region="Europe" d="M370 120l45-18 42 8 8 22-16 18-35 4-30-10z"/>
+              <path class="region" data-region="Africa" d="M395 170l46 8 28 54-20 78-40-4-22-70z"/>
+              <path class="region" data-region="Central Asia" d="M465 122l65-12 56 12 2 30-28 20-62-4-30-18z"/>
+              <path class="region" data-region="East Asia" d="M620 120l80 22 30 55-48 25-66-26-12-40z"/>
+              <path class="region" data-region="Americas" d="M120 86l68 26 40 90-32 98-54-20-24-92z"/>
+            </svg>
+          </div>
+          <p class="map-note">Explore analysis by region and thematic focus.</p>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="container narrow">
+          <h2>Why Structure Matters in Diplomacy</h2>
+          <p>
+            In a world saturated with opinion, Diplomacy Lab emphasizes clarity,
+            data, and concise strategic thinking. Every publication is limited in
+            length and grounded in evidence.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>
+          Diplomacy Lab is a calm digital journal for rigorous, practical policy
+          analysis.
+        </p>
+        <p><a href="mailto:contact@diplomacylab.org">contact@diplomacylab.org</a></p>
+        <p class="socials"><a href="#">LinkedIn</a> · <a href="#">X</a> · <a href="#">ResearchGate</a></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
